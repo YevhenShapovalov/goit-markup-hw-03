@@ -257,9 +257,6 @@ gap: 30px;
 padding-top: 94px;
 padding-bottom: 94px;
 }
-.team .list {
-  padding-bottom: 94px;
-}
 
 .team-man {
   padding-top: 30px;
@@ -385,8 +382,8 @@ address a:focus {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    flex-basis: calc((100%-60px)/3);
 }
+.portfolio-item-list {flex-basis: calc((100% - 60px) / 3);}
 .portfolio-title {
   color: var(--title-text-color);
 
